@@ -1,0 +1,15 @@
+**/.cache
+**/.vscode
+**/build
+**/compile_commands.json
+*.swo
+*.swp
+.gitconfig
+.idea
+/install/
+/configs
+# default presets can be locally modified to easy development,
+# so force the file if changes need to be pushed
+CMakePresets.json
+CMakeUserPresets.json
+*.AppImage
